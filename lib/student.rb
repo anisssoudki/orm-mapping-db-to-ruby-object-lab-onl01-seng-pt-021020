@@ -82,9 +82,7 @@ class Student
         SQL
 
     DB[:conn].execute(sql, x).map do |i|
-     j= [] 
-     j << i
-     print j.flatten
+    i
     end
   end
   
