@@ -82,7 +82,7 @@ class Student
         SQL
 
     DB[:conn].execute(sql, x).map do |i|
-  self.new_from_db(i)
+    self.new_from_db(i)
     end
   end
   
